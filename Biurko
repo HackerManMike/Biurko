@@ -40,8 +40,9 @@ while True:
     biurko.dostepne_materialy()
     wybrany_material = input('wybierz dostępny materiał przepisujac jego nazwe: ')
     #Problem jest tutaj, staram się porównać wpisany input do listy i jeśli lista zawiera taki tekst to printuje wiadomosc.
-    if wybrany_material == biurko.material():
-      print('dobrzekurwa')
+    
+    if wybrany_material in biurko.material:
+        print('dobrzekurwa')
 
       
     
