@@ -22,7 +22,7 @@ class Biurko:
     def dost_liczba_nog(self):
         print(f'Dostepna liczba nog to: {self.liczba_nog}')
 
-    def wybierz_material(self):
+    def wybierz_material(self, wybrany_material):
         self.material = str(wybrany_material)
         print(f'aktualnie wybrany material biurka to:{wybrany_material}')
 
